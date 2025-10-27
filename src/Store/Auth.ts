@@ -12,7 +12,7 @@ export const useAuthStore = create<Authentication>((set)=>({
 token: null,
 isAuthenticated: false,
 
-login:async (email,password)=> {
+login:async ()=> {
 
 try {
   const res = await fetch('https://reqres.in/api/login',{
