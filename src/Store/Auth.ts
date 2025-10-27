@@ -9,8 +9,8 @@ logout : ()=> void
 }
 
 export const useAuthStore = create<Authentication>((set)=>({
-token: null,
-isAuthenticated: false,
+token: localStorage.getItem('token') ? JSON.parse(localStorage.getItem('token')!) : null,
+isAuthenticated: !!localStorage.getItem('token'),
 
 login:async ()=> {
 
