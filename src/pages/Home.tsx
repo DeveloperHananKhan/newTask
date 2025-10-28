@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <>
       
-        <div className=" flex w-full  min-w-0 ">
+        <div className=" flex w-full  min-w-0  overflow-hidden">
           <div>
             <SideBar />
           </div>
