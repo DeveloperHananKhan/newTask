@@ -4,7 +4,7 @@ import { TaskCard } from "./TaskCard";
 export const TaskCat = () => {
   return (
     <>
-      <div className="w-[400px] px-2 overflow-hidden  md:w-[700px]  lg:w-[100%]  ">
+      <div className="w-[400px] px-2  md:w-[700px]  lg:w-[100%]  ">
         <div>
           <div className="flex justify-between items-center">
             <h1 className="font-semi-bold text-xl text-gray-800">Categories</h1>
