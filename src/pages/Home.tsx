@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <>
       
-        <div className=" flex w-full overflow-hidden">
+        <div className=" flex w-[90%] ">
           <div>
             <SideBar />
           </div>
