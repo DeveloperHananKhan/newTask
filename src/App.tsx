@@ -11,7 +11,7 @@ import { useAuthStore } from './Store/Auth'
 
 function App() {
   const {isAuthenticated}= useAuthStore()
-  return (
+  return (<>
  <Routes>
   <Route path='/' element={<Cover />} />
   <Route path='/login' element={<LogIn />} />
@@ -23,7 +23,7 @@ function App() {
 
  </Routes>
 
-  )
+ </> )
 }
 
 export default App
